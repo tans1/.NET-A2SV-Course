@@ -1,4 +1,4 @@
-# Hi, there 🙌 I am Tofik 😁
+# Hi, there 🙌 I am Tofik 
 
 ## A2SV Backend Project Tasks Repository
  **This repository contains all the tasks I completed during the A2SV backend project phase starting from basic C# to advanced .NET Projects with Clean Architecture. Each task is sorted and organized as a separate branch. To access a specific task, please select your preferred date or branch.**
