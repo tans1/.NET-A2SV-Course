@@ -1,0 +1,18 @@
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\bin\Debug\net7.0\Task Manager Project.exe
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\bin\Debug\net7.0\Task Manager Project.deps.json
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\bin\Debug\net7.0\Task Manager Project.runtimeconfig.json
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\bin\Debug\net7.0\Task Manager Project.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\bin\Debug\net7.0\Task Manager Project.pdb
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.AssemblyInfo.cs
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.sourcelink.json
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\refint\Task Manager Project.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.pdb
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.genruntimeconfig.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\ref\Task Manager Project.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Task Manager Project\obj\Debug\net7.0\Task Manager Project.csproj.CopyComplete
