@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj": {}
+    "c:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj": {
+    "c:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj",
+        "projectUniqueName": "c:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj",
         "projectName": "Task Manager Project",
-        "projectPath": "C:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj",
+        "projectPath": "c:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\Task Manager Project.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\obj\\",
+        "outputPath": "c:\\Users\\hp\\Documents\\A2SV\\.NET Course\\.NET-A2SV-Course\\Task Manager Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
