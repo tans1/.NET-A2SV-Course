@@ -1,0 +1,18 @@
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\bin\Debug\net7.0\Student Management System.exe
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\bin\Debug\net7.0\Student Management System.deps.json
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\bin\Debug\net7.0\Student Management System.runtimeconfig.json
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\bin\Debug\net7.0\Student Management System.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\bin\Debug\net7.0\Student Management System.pdb
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.AssemblyInfo.cs
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.sourcelink.json
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.csproj.CopyComplete
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\refint\Student Management System.dll
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.pdb
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\Student Management System.genruntimeconfig.cache
+C:\Users\hp\Documents\A2SV\.NET Course\.NET-A2SV-Course\Student Management System\obj\Debug\net7.0\ref\Student Management System.dll
