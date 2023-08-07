@@ -1,18 +1,6 @@
-# Hi, there 🙌 I am Tofik 
+# Hi, there 🙌
 
-## A2SV Backend Project Tasks Repository
- **This repository contains all the tasks I completed during the A2SV backend project phase starting from basic C# to advanced .NET Projects with Clean Architecture. Each task is sorted and organized as a separate branch. To access a specific task, please select your preferred date or branch.**
+**here is what I have done on the day-6 of A2SV, .NET Learning Path.**
 
-## How to Use?
-
-1. **Browse through the branches to find the specific task or date you are interested in.**
-2. **Select the branch corresponding to the desired task.**
-3. **Explore the code, commits, and changes related to that task.**
-
-**Feel free to navigate through the branches to review the progress and development during the A2SV backend project phase.**
-
----
-
-## `The journey of a thousand miles begins with one step. 💪🎁`
-**Lao Tzu**
-## Thank you!
+### PostgreSQL Practice on Leetcode : 
+> I did a set of SQL practice problems on Leetcode. The problems range in difficulty from easy to medium, and I encouraged to attempt all of them. Solving these SQL practice problems have enhanced my PostgreSQL skills and boosted my confidence in handling various database challenges. The problem set includes tasks like combining tables, finding big countries, identifying duplicate emails, and more. By mastering these concepts, I became confident in PostgreSQL, a valuable skill for data management and analysis in modern applications.
