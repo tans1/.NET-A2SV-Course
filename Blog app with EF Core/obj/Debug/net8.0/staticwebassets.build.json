@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "59Rs1jneXwIjcDK+RlznSfKEHUKOHgZA2oG40IhRBGo=",
+  "Source": "Blog app with EF Core",
+  "BasePath": "_content/Blog app with EF Core",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
