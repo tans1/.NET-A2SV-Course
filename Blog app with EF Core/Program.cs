@@ -8,21 +8,21 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+// add db context
 builder.Services.AddEntityFrameworkNpgsql()
     .AddDbContext<BlogDbContext>(opt =>
      opt.UseNpgsql(builder.Configuration.GetConnectionString("BlogDb")));
-
+// add controller
 builder.Services.AddControllers();
-
+// add services
 builder.Services.AddScoped<IBlogPost, PostRepository>();
 builder.Services.AddScoped<IBlogComment, CommentRepository>();
 
-
+// add serialization
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
 );

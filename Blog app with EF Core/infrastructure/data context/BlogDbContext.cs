@@ -27,13 +27,6 @@ namespace Blog_app_with_EF_Core.data
                     .HasConstraintName("FK_Comment_Post");
             });
 
-
-
-
-
-
-
-
             modelBuilder.Entity<Post>(entity => {
                 entity.Property(e => e.Id)
                       .ValueGeneratedOnAdd();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj": {}
+    "c:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj": {
+    "c:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj",
+        "projectUniqueName": "c:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj",
         "projectName": "Blog app with EF Core",
-        "projectPath": "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj",
+        "projectPath": "c:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\obj\\",
+        "outputPath": "c:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

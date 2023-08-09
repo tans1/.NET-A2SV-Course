@@ -14,41 +14,45 @@ namespace Blog_app_with_EF_Core.repository
             _context = context;
         }
 
-        public async Task<Comment> CreateComment(Comment comment)
+        public async Task<Comment?> CreateComment(Comment comment)
         {
-            _context.Comments.Add(comment);
-            await _context.SaveChangesAsync();
-            return comment;
+            try {
+                _context.Comments.Add(comment);
+                await _context.SaveChangesAsync();
+                return comment;
+            }
+            catch{
+                return null;
+            }
         }
 
-        public async Task<List<Comment>> GetAllComments()
+        public async Task<List<Comment>?> GetAllComments()
         {
             return await _context.Comments.ToListAsync();
         }
         
 
-        public async Task<Comment> GetCommentById(int id)
+        public async Task<Comment?> GetCommentById(int id)
         {
             return await _context.Comments.FindAsync(id);
         }
 
-        public async Task<List<Comment>> GetCommentsByPostId(int postId)
+        public async Task<List<Comment>?> GetCommentsByPostId(int postId)
         {
             var comments = await _context.Comments
                                     .Where(comment => comment.PostId == postId)
                                     .ToListAsync();
-
             return comments;
         }
 
-        public async Task<Comment> UpdateComment(int id,Comment newComment)
+        public async Task<Comment?> UpdateComment(int id,Comment newComment)
         {
-            var comment = _context.Comments.Find(id);
+            var comment = await _context.Comments.FindAsync(id);
 
             if (comment != null)
             {
                 comment.Text = newComment.Text;
-                comment.PostId = newComment.PostId;
+                comment.PostId = comment.PostId;
 
                 _context.Comments.Update(comment);
                 await _context.SaveChangesAsync();
@@ -56,10 +60,9 @@ namespace Blog_app_with_EF_Core.repository
             return comment;
         }
 
-        public async Task<List<Comment>> DeleteComment(int id)
+        public async Task<List<Comment>?> DeleteComment(int id)
         {
             var comment = await _context.Comments.FindAsync(id);
-
             if (comment != null)
             {
                 _context.Comments.Remove(comment);

@@ -49,7 +49,7 @@ namespace Blog_app.Test
             // act
             var comments = await commentRepository.GetCommentsByPostId(postId);
             // assert
-            Assert.Empty(comments);
+            Assert.Null(comments);
         }
 
 

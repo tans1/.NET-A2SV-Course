@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gj9bzYpDMBEG9T2p04xpMGzIg6tRCeic+SUqOBgK8KHYdR6MZKvvDMSZ8pCLch4SyNBunjwU4BUOB1Qx6LICnQ==",
+  "dgSpecHash": "3WBj0KvXprsnsUAo12RTp6Hok/lYRE/ZSceLTn9pMUDVySaOaRcputU0dFCH3jLYmYL3UQi0hXCPD2paeQ/u1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj",
+  "projectFilePath": "c:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\Blog app with EF Core\\Blog app with EF Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",

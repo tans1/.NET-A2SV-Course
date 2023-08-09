@@ -15,17 +15,21 @@ namespace Blog_app_with_EF_Core.repository
         }
 
 
-        public async Task<Post> CreatePost(Post post)
+        public async Task<Post?> CreatePost(Post post)
         {
+            try {
+                _context.Posts.Add(post);
+                await _context.SaveChangesAsync();
+                return post;
+            }
+            catch {
+                return null;
+            }
             
-            _context.Posts.Add(post);
-            await _context.SaveChangesAsync();
-
-            return post;
         }
 
 
-        public async Task<List<Post>> GetAllPosts()
+        public async Task<List<Post>?> GetAllPosts()
         {
             var posts = await _context.Posts
                                 .Include(p => p.Comments)
@@ -33,7 +37,7 @@ namespace Blog_app_with_EF_Core.repository
             return posts;
         }
 
-        public async Task<Post> GetPostbyId(int id)
+        public async Task<Post?> GetPostbyId(int id)
         {
             var post = await _context.Posts
                         .Include(p => p.Comments) 
@@ -42,7 +46,7 @@ namespace Blog_app_with_EF_Core.repository
         }
 
 
-        public async Task<Post> UpdatePost(int id, Post data)
+        public async Task<Post?> UpdatePost(int id, Post data)
         {
             var post = await _context.Posts
                         .Include(p => p.Comments)
@@ -56,17 +60,14 @@ namespace Blog_app_with_EF_Core.repository
                 _context.Posts.Update(post);
                 await _context.SaveChangesAsync();
             }
-            
             return post;
-
         }
 
-        public async Task<List<Post>> DeletePost(int id)
+        public async Task<List<Post>?> DeletePost(int id)
         {
             var post = await _context.Posts
                         .Include(p => p.Comments)
                         .FirstOrDefaultAsync(p => p.Id == id);
-
             if (post != null)
             {
                 _context.Posts.Remove(post);
