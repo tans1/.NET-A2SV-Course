@@ -13,7 +13,7 @@
        - Install necessary packages for building Web APIs.
 2.  Implement API Endpoints:
        - Create API endpoints to handle CRUD operations for blog posts.
-        - Create API endpoints to handle CRUD operations for comments.
+       - Create API endpoints to handle CRUD operations for comments.
 3.  Implement proper validation and error handling for API requests.
 
 **Testing**
