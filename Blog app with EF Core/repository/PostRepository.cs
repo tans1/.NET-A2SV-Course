@@ -35,14 +35,18 @@ namespace Blog_app_with_EF_Core.repository
 
         public async Task<Post> GetPostbyId(int id)
         {
-            var post = await _context.Posts.FindAsync(id);
+            var post = await _context.Posts
+                        .Include(p => p.Comments) 
+                        .FirstOrDefaultAsync(p => p.Id == id);
             return post;
         }
 
 
         public async Task<Post> UpdatePost(int id, Post data)
         {
-            var post = _context.Posts.Find(id);
+            var post = await _context.Posts
+                        .Include(p => p.Comments)
+                        .FirstOrDefaultAsync(p => p.Id == id);
 
             if (post != null)
             {
@@ -59,7 +63,9 @@ namespace Blog_app_with_EF_Core.repository
 
         public async Task<List<Post>> DeletePost(int id)
         {
-            var post = _context.Posts.Find(id);
+            var post = await _context.Posts
+                        .Include(p => p.Comments)
+                        .FirstOrDefaultAsync(p => p.Id == id);
 
             if (post != null)
             {
