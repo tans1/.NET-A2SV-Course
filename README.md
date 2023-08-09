@@ -1,3 +1,4 @@
+
 # Hi, there 🙌
 
 **here is what I have done on the day-7 of A2SV, .NET Learning Path.**
@@ -28,11 +29,13 @@
  - xunit
  ---
 **Final end points**
+
 ![Screenshot 2023-08-10 002043](https://github.com/tans1/.NET-A2SV-Course/assets/104857366/f9bc06af-217c-4b56-b134-fd6836d43823)
 
 
   
 
 <h3 align="left">Tools:</h3>  
-<p align="left" >  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40"  height="40"/> 
+<p align="left" >  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="300" height="100"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="300"  height="100"/> 
+</p>
