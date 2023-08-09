@@ -38,7 +38,7 @@ namespace Blog_app_with_EF_Core.Controllers
 
         }
         [HttpPut("{id}")]
-        public async Task<ActionResult<Post>> UpdateSuperPost(int id, Post post)
+        public async Task<ActionResult<Post>> UpdatePost(int id, Post post)
         {
             var newPost = await _repository.UpdatePost(id, post);
 
@@ -50,7 +50,7 @@ namespace Blog_app_with_EF_Core.Controllers
 
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteSuperPost(int id)
+        public async Task<IActionResult> DeletePost(int id)
         {
             var post = await _repository.DeletePost(id);
             if (post == null)
