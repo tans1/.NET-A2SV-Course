@@ -5,7 +5,8 @@
 **here is what I have done on the day-8 of A2SV, .NET Learning Path.**
 
 ### Title : Blog app with Entity Framework Core : 
-> In this project, I built a Web API using .NET Core to provide endpoints for managing the blog posts and comments in the previously created a Blogging Application. The API will allow clients to interact with the application data programmatically, making it an excellent addition to the existing project.
+> In this project, I built a Web API using .NET Core to provide endpoints for managing the blog posts and comments in the previously created a Blogging
+> Application. The API will allow clients to interact with the application data programmatically, making it an excellent addition to the existing project.
 
 ---
 ### **Features and Tasks:**
