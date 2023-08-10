@@ -9,13 +9,13 @@
 
 ---
 ### **Features and Tasks:**
->1.  Create Web API Project:
-       - Set up a new ASP .NET Core Web API project.
-       - Install necessary packages for building Web APIs.
->2.  Implement API Endpoints:
-       - Create API endpoints to handle CRUD operations for blog posts.
-       - Create API endpoints to handle CRUD operations for comments.
->3.  Implement proper validation and error handling for API requests.
+>1.  Create Web API Project:<br/> 
+       - Set up a new ASP .NET Core Web API project.<br/> 
+       - Install necessary packages for building Web APIs.<br/> 
+>2.  Implement API Endpoints:<br/> 
+       - Create API endpoints to handle CRUD operations for blog posts.<br/> 
+       - Create API endpoints to handle CRUD operations for comments.<br/> 
+>3.  Implement proper validation and error handling for API requests.<br/> 
 ---
 ### **Testing**
 > -   Use a testing framework xUnit for writing the tests.
