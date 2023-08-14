@@ -1,0 +1,13 @@
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\hp\Documents\A2SV\.NET-A2SV-Course\BlogApp\Domain\obj\Debug\net7.0\ref\Domain.dll
