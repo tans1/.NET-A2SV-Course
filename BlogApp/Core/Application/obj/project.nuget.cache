@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WFmgCWSv6xzdIf11+0RmHZ0bideuwhqNyZasC1wnlMUVJqu07OLnY6EWEt2ZzlLdJxnmFGo9mPEYSxUFIZ+X4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Documents\\A2SV\\.NET-A2SV-Course\\BlogApp\\Core\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
