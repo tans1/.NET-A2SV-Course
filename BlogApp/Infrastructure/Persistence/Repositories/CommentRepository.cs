@@ -1,9 +1,9 @@
 ﻿using application.Contracts;
-using application.DTO;
 using AutoMapper;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Persistance.DataContext;
+using Persistence.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,41 +12,24 @@ using System.Threading.Tasks;
 
 namespace Persistance.Repositories
 {
-    public class CommentRepository : IComment
+    public class CommentRepository : GenericRepository<Comment> , IComment
     {
         private readonly BlogDataContext _context;
-        private readonly IMapper _mapper;
 
-        public CommentRepository(BlogDataContext context, IMapper mapper)
+        public CommentRepository(BlogDataContext context): base(context)
         {
             _context = context;
-            _mapper = mapper;
         }
 
-        public async Task<Comment?> CreateComment(CommentDTO comment)
+        public async Task<Comment?> Get(int Id)
         {
-            try
-            {
-                var newComment = _mapper.Map<Comment>(comment);
-                _context.Comments.Add(newComment);
-                await _context.SaveChangesAsync();
-                return newComment;
-            }
-            catch
-            {
-                return null;
-            }
+            return await _context.Comments.FindAsync(Id);
         }
+
 
         public async Task<List<Comment>?> GetAllComments()
         {
             return await _context.Comments.ToListAsync();
-        }
-
-
-        public async Task<Comment?> GetCommentById(int id)
-        {
-            return await _context.Comments.FindAsync(id);
         }
 
         public async Task<List<Comment>?> GetCommentsByPostId(int postId)
@@ -57,14 +40,12 @@ namespace Persistance.Repositories
             return comments;
         }
 
-        public async Task<Comment?> UpdateComment(int id, CommentDTO commentData)
+        public async Task<Comment?> Update(Comment commentData)
         {
-            var comment = await _context.Comments.FindAsync(id);
-            var newComment = _mapper.Map<Comment>(commentData);
-
+            var comment = await _context.Comments.FindAsync(commentData.Id);
             if (comment != null)
             {
-                comment.Text = newComment.Text;
+                comment.Text = commentData.Text;
                 comment.PostId = comment.PostId;
 
                 _context.Comments.Update(comment);
@@ -73,17 +54,6 @@ namespace Persistance.Repositories
             return comment;
         }
 
-        public async Task<List<Comment>?> DeleteComment(int id)
-        {
-            var comment = await _context.Comments.FindAsync(id);
-            if (comment != null)
-            {
-                _context.Comments.Remove(comment);
-                _context.SaveChanges();
-                return await GetAllComments();
-            }
-            return null;
-        }
     }
 
 }

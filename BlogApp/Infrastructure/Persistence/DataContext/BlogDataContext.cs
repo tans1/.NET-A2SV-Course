@@ -25,11 +25,11 @@ namespace Persistance.DataContext
                 entity.Property(e => e.Id)
                       .ValueGeneratedOnAdd();
 
-                entity.HasOne(e => e.Post)
-                    .WithMany(e => e.Comments)
-                    .HasForeignKey(e => e.PostId)
-                    .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK_Comment_Post");
+                //entity.HasOne(e => e.Post)
+                //      .WithMany(e => e.Comments)
+                //      .HasForeignKey(e => e.PostId)
+                //      .OnDelete(DeleteBehavior.Cascade)
+                //      .HasConstraintName("FK_Comment_Post");
             });
 
             modelBuilder.Entity<Post>(entity => {

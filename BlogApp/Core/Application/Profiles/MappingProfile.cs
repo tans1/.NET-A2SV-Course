@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using application.DTO;
+using Application.DTO.CommentDTO;
+using Application.DTO.PostDTO;
 using AutoMapper;
 using Domain.Entities;
 
@@ -13,9 +14,13 @@ namespace application.Profiles
     {
         public MappingProfile() 
         {
-            CreateMap<PostDTO, Post>().ReverseMap();
-            CreateMap<CommentDTO, Comment>().ReverseMap();
+            CreateMap<PostResponseDTO, Post>().ReverseMap();
+            CreateMap<PostCreateDTO, Post>().ReverseMap();
+            CreateMap<PostUpdateDTO, Post>().ReverseMap();
 
+            CreateMap<CommentCreateDTO, Comment>().ReverseMap();
+            CreateMap<CommentUpdateDTO, Comment>().ReverseMap();
+            CreateMap<CommentResponseDTO, Comment>().ReverseMap();
         }
     }
 }
