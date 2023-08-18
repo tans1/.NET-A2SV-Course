@@ -2,10 +2,10 @@
 
 # Hi, there 🙌
 
-**here is what I have done on the day-10 of A2SV, .NET Learning Path.**
+**here is what I have done on the day-12 of A2SV, .NET Learning Path.**
 
 ### Title: Building a Blog API with Clean Architecture Part - IV
-On the day-10 of the project, I dedicated my efforts to the application layer. This involved a comprehensive utilization of CQRS, AutoMapper, and MediatR to bring the application layer of the clean architecture to fruition. Through these tools, I was able to effectively implement and enhance this critical layer of the project.
+On the day-12 of the project, I dedicated my efforts to the application layer. This involved a comprehensive utilization of CQRS, AutoMapper, and MediatR to bring the application layer of the clean architecture to fruition. Through these tools, I was able to effectively implement and enhance this critical layer of the project.
 
 1. **CQRS (Command Query Responsibility Segregation):**
    CQRS is a design pattern that separates the responsibilities of reading data (queries) and writing data (commands) into separate parts. In a CQRS architecture, the data model used for reading is often different from the one used for writing, allowing each to be optimized for its specific purpose. This separation can lead to improved performance, scalability, and maintainability. It's particularly useful in complex systems where the read and write operations have different requirements.
