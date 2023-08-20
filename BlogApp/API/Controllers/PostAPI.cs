@@ -2,8 +2,10 @@
 using Application.Features.Posts.Requests.Commands;
 using Application.Features.Posts.Requests.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace API.Controllers
 {
@@ -22,6 +24,16 @@ namespace API.Controllers
         [HttpGet("all")]
         public async Task<ActionResult<List<PostResponseDTO>>> GetAll()
         {
+            // getting the user id from the token
+            // you can Get the User Id from the authenticated user any place in the application from the HttpContext
+
+            string token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            JwtSecurityToken jwtToken = tokenHandler.ReadJwtToken(token);
+            var payload = jwtToken.Payload;
+            string userId = payload["uid"]?.ToString();
+
+
 
             var result = await _mediator.Send(new GetAllPosts());
             return Ok(result);

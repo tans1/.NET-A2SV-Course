@@ -2,12 +2,17 @@ using Application;
 using Persistence;
 using API.Middleware;
 using Infrastructure;
+using Identity;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureApplicationServices();
 builder.Services.ConfigurePersistenceService(builder.Configuration);
 builder.Services.ConfigureInfrastructureServices(builder.Configuration);
+builder.Services.ConfigureIdentityServices(builder.Configuration);
+
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -22,13 +27,21 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ExceptionMiddleware>();
+
+
+
+// add authentication middleware
+app.UseAuthentication();
 
 app.UseHttpsRedirection();
-
-app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+
+
+
+// swagger 
