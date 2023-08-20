@@ -4,7 +4,7 @@
 **here is what I have done on the day-14 of A2SV, .NET Learning Path.**
 
 ### Title:  Blog APP with Clean Architecture
-On this day14 , I completed the authentication and authorization of the BlogAPP. for this purpose I used Microsoft Identity with JWT. I found it much easier than another frameworks authentication and authorization method. 
+On this day14 , I completed the authentication and authorization of the BlogAPP. for this purpose I used Microsoft Identity with JWT. I found it much easier than another frameworks' authentication and authorization method. 
 ####  Authentication:
 Authentication refers to the process of verifying the identity of users accessing the system. With the integration of Microsoft Identity, I established a secure mechanism to ensure that individuals are who they claim to be before granting them access. This involves validating user-provided credentials like usernames and passwords, offering a robust layer of protection against unauthorized access.
 ####  Authorization:
